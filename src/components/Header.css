@@ -1,0 +1,48 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+
+  z-index: 10;
+}
+
+.Header .logo {
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: white;
+}
+
+.Header .icon-links {
+  margin-right: 20px;
+}
+
+.Header .icon {
+  margin: 10px;
+  font-size: 32px;
+  color: black;
+}
+
+.Header .button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.Header button {
+  background: transparent;
+  border: none;
+  padding: 15px;
+  width: 80px;
+}
+
+.Header button:hover {
+  color: #03a9f4;
+  transition: 0.5s;
+}
+
+.Header .on {
+  color: #03a9f4;
+}
