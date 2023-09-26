@@ -1,6 +1,9 @@
 import "./About.css";
 import cloud from "../images/wordcloudthiiisone.png";
 import skills from "../images/MERN skills.jpg";
+import circus from "../images/grand_circus.webp";
+import background from "../images/me-bartending.jpg";
+import future from "../images/future.jpg";
 
 const About = () => {
   return (
@@ -21,11 +24,11 @@ const About = () => {
                 growth, and I am confident that I can make a significant
                 contribution to any team.
               </p>
-              <img src={cloud} alt="" />
+              <img src={cloud} alt="Word Cloud" />
             </div>
 
             <div className="skills">
-              <img src={skills} alt="" />
+              <img src={skills} alt="MERN Stack Picture" />
               <p>
                 I started out as a hobby programmer with a strong foundation in{" "}
                 <span className="blue-letters">
@@ -39,9 +42,9 @@ const About = () => {
               </p>
             </div>
             <div className="education">
-              <h3>Education</h3>
+              <img src={circus} alt="Grand Circus Programming Bootcamp" />
               <p>
-                I achieved an overall score of 99% in my JavaScript Full Stack
+                I achieved an overall score of 99% in the JavaScript Full Stack
                 bootcamp at Grand Circus in 2023. I have worked on exciting
                 projects such as "Zombie Village" and "Culinary Caddy", where I
                 was able to contribute to the development of the project
@@ -49,7 +52,7 @@ const About = () => {
               </p>
             </div>
             <div className="background">
-              <h3>Background</h3>
+              <img src={background} alt="me bartending" />
               <p>
                 I have a strong background in customer service, as a trainer and
                 bartender at Texas RoadHouse from 2021 to 2023. This has given
@@ -59,7 +62,7 @@ const About = () => {
               </p>
             </div>
             <div className="future">
-              <h3>Future</h3>
+              <img src={future} alt="generic picture of the future" />
               <p>
                 I am excited about the abundant opportunities for growth and
                 skill development in the software engineering field, and I am
