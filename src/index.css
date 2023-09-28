@@ -3,9 +3,6 @@
 body {
   margin: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: url(./images/white-background-with-blue-tech-hexagon_1017-19366.avif);
-  background-size: cover;
-  background-repeat: no-repeat;
 
   height: 100%;
 }

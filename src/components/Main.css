@@ -6,11 +6,9 @@
 }
 
 .Main .main-container {
-  display: flex;
-  flex-direction: column;
   margin-top: 50px;
   max-width: 768px;
-  flex-wrap: wrap;
+
   height: 100%;
 }
 
@@ -219,7 +217,7 @@
 .Main #box {
   font-family: raleway;
   background-color: white;
-  height: 55%;
+  height: 122%;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -293,9 +291,15 @@
 
 @media only screen and (min-width: 768px) {
   .Main .main-container {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
+  }
+
+  .Main #box {
+    height: 80%;
   }
 
   .Main .title-container {
